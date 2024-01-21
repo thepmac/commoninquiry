@@ -1,3 +1,30 @@
+@media (max-width: 799px) {
+    body {
+        width: 100%;
+        font-size: 18px;
+        padding: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        width: 760px;
+        font-size: 26px;
+        letter-spacing: 1.4px;
+    }
+}
+
 body {
-    font-family: sans-serif, serif, monospace;
+    margin: auto;
+    font-family: "Arial", sans-serif, serif, monospace;
+    line-height: 1.52;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #663399;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
 }

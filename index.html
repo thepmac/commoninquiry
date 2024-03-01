@@ -8,8 +8,10 @@
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
     <script src="scripts.js" defer></script>
 </head>
+
+
 <body>
-    <p><em>Common Inquiry (CI)</em> is an artist collective founded in 2023 in New York City, based on shared interest and curiosity in public spaces and the commons. Common Inquiry seeks to contribute to advancing the collective knowledge and stewardship of public spaces by:</p>
+    <p><em>Common Inquiry (CI)</em> is a collective founded in 2023 in New York City, based on shared interest and curiosity in public spaces and the commons. Common Inquiry seeks to contribute to advancing the collective knowledge and stewardship of public spaces by:</p>
     <ol>
         <li>Bringing together inquiries about public spaces and providing answers by acting as a research agent. Collected questions and answers will be published as an online library and physical periodicals. Past and ongoing inquiries are available to view on the map below:
             <iframe src="https://www.google.com/maps/d/u/2/embed?mid=1ltJ7zmWuLptk1lWUYJvj9X1QIXkF45I&ehbc=2E312F" width="100%" height="480"></iframe>
@@ -23,6 +25,18 @@
             </ul>
         </li>
     </ol>
+    <svg width="0" height="0">
+        <defs>
+          <filter id="gradient-map">
+            <feColorMatrix type="saturate" values="0" result="grayScale"/>
+            <feComponentTransfer in="grayScale" result="colored">
+              <feFuncR type="table" tableValues="0.4 1"/>
+              <feFuncG type="table" tableValues="0.2 1"/>
+              <feFuncB type="table" tableValues="0.6 1"/>
+            </feComponentTransfer>
+          </filter>
+        </defs>
+      </svg>
     <img id="mtaimg" src="assets/06.jpg" alt="A photo of a closed subway platform storefront unit with a pattern of yellow flowers painted on the stainless steel roll-up door. The subway station signs read “Chambers Street.”"/>
     <p>Contact us at <a href="mailto:commoninquirynyc@gmail.com">commoninquirynyc@gmail.com</a></p>
 </body>

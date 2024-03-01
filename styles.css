@@ -57,3 +57,21 @@ ul li {
 iframe {
     margin-top: 1rem;
 }
+
+#mtaimg:hover {
+    filter: url(#duotone);
+    transition: filter 0.5s ease;
+}
+
+#mtaimg:hover {
+    filter: none;
+}
+
+#mtaimg {
+    filter: url(#gradient-map);
+    transition: filter 0.5s ease;
+}
+
+svg {
+    display: none;
+}

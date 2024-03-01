@@ -13,13 +13,13 @@
         font-size: 26px;
         letter-spacing: .8px;
         padding: 0rem;
+        margin-bottom: 100px;
+        margin-top: 80px;
     }
 }
 
 body {
     margin: auto;
-    margin-bottom: 100px;
-    margin-top: 80px;
     font-family: "Arial", sans-serif, serif, monospace;
     line-height: 1.52;
     box-sizing: border-box;
